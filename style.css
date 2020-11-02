@@ -1,0 +1,191 @@
+* {
+	font-size: 1rem;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+.login_form {
+	border: 2px solid orange;
+	width: 450px;
+	margin: auto;
+}
+.pagehead {
+	/* background-color: black; */
+	/* color: purple; */
+	text-align: center;
+	width: 230px;
+	/* position: absolute;
+	top: 30%;
+	left: 41%; */
+	/* border: 1px solid black; */
+}
+
+.loginbox {
+	width: 210px;
+	/* position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-54%); */
+	/* border: 1px solid red; */
+}
+
+.loginfield {
+	/* border-bottom: 3px solid purple; */
+	margin-bottom: 20px;
+	padding: 5px;
+	/* background-color: black; */
+}
+
+/* #loginbtn{
+		width: 90px;
+		height: 30px;
+		margin-right: 10px;
+		margin-left: 5px;
+		background-color: green;
+	} */
+
+/* #regbtn{
+		width: 90px;
+		height: 30px;
+		background-color: yellow;
+	} */
+
+/* #registerbtn{
+		width: 210px;
+		height: 30px;
+		margin-right: 10px;
+		background-color: green;
+	} */
+
+#backbtn {
+	/* margin-top: 10px;
+	width: 210px;
+	height: 30px;
+	background-color: yellow; */
+	border: 1px solid yellow;
+	color: yellow;
+}
+
+#chgbtn {
+	/* margin-top: 10px;
+		width: 210px;
+		height: 30px; */
+	/* background-color: blue; */
+	border: 1px solid blue;
+	color: blue;
+}
+
+#delbtn {
+	/* margin-top: 10px;
+		width: 210px;
+		height: 30px; */
+	/* background-color: red; */
+	border: 1px solid red;
+	color: red;
+}
+
+.welcome {
+	/* font-family: 'Lobster', cursive; */
+	color: purple;
+	text-align: center;
+}
+
+.movielist {
+	/* font-family: 'Lobster', cursive; */
+	margin-top: 50px;
+	color: orange;
+	text-align: center;
+}
+
+.moviebox div {
+	background-color: rgb(54, 37, 5);
+	border: 5px solid black;
+	border-radius: 25px;
+	box-shadow: 0px 0px 25px 15px gold;
+	/* height: 300px; */
+	width: 300px;
+	margin: 3px;
+	margin-top: 3rem;
+}
+
+.moviebox div img {
+	margin-top: 15px;
+	/* background-image; */
+	background: pink;
+	background-clip: content-box;
+	width:100%;
+	height: auto;
+
+}
+
+.rating {
+	text-align: center;
+}
+
+.allratings {
+	/* font-family: 'Lobster', cursive; */
+	/* color: white; */
+	text-align: center;
+	margin-top: 50px;
+}
+
+.searchresult {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.results {
+	margin-top: 50px;
+	color: orange;
+}
+
+.namesearched {
+	display: inline;
+}
+
+.addfriend {
+	display: inline;
+	background-color: transparent;
+	color: rgb(17, 243, 17);
+	border: none;
+}
+
+.addfriend:hover {
+	cursor: pointer;
+}
+
+.deleterec {
+	display: inline-block;
+	background-color: transparent;
+	border: none;
+	color: red;
+	cursor: pointer;
+}
+
+.inlineform {
+	display: inline-block;
+}
+
+.hiddeninput {
+	display: none;
+}
+
+.userratings {
+	color: grey;
+}
+
+.hiddenform {
+	display: none;
+}
+
+main{
+	min-height: 60vh;
+}
+
+footer{
+	/* background-color: dagr; */
+	min-height: 5rem;
+}
